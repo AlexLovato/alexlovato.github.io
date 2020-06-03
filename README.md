@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
+# Disclaimer
+
+this project uses open api's to list movies in a movie database and does not contain any copywritten content, nor am I responsible for anything you do with this project
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
