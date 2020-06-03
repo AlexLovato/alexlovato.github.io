@@ -1,0 +1,11 @@
+<h1 mat-dialog-title><a href="{{data['url']}}" style="margin-left: 33%" target="_blank" >{{data['title_long']}}</a></h1>
+<div mat-dialog-content >
+    <span style="width:48%">{{data['description_full']}}</span>
+    <mat-list dense>
+        <mat-list-item  *ngFor="let torrent of data['torrents']">  <a href="{{torrent.url}}" target="_blank"><button mat-raised-button >
+            {{torrent.quality}} | {{torrent.type}} - {{torrent.size}}</button></a> </mat-list-item>
+       </mat-list>
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-button cdkFocusInitial mat-dialog-close >Ok</button>
+</div>
